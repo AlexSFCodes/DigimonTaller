@@ -1,0 +1,27 @@
+# Configuración local de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compilación y paquetes NuGet restaurables
+[Bb]in/
+[Oo]bj/
+packages/
+TestResults/
+*.log
+
+# Archivos generados durante las comprobaciones
+.playwright-mcp/
+
+# Configuración local y credenciales
+.codex/
+.aws/
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.publishsettings
+*.pubxml.user
